@@ -1,0 +1,14 @@
+# Define arquivos de documentação (não contam nas estatísticas de código)
+docs/** linguist-documentation
+
+# Define a linguagem de um tipo de arquivo específico
+*.ino linguist-language=C++
+
+# Marca arquivos de dependências como "vendored" (não contam nas estatísticas)
+vendor/** linguist-vendored
+
+# Define arquivos gerados automaticamente
+dist/** linguist-generated
+
+# Garante que arquivos de código sejam detectáveis pelo linguist
+src/** linguist-detectable
